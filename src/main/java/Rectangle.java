@@ -16,7 +16,9 @@ public class Rectangle {
      */
     public double calculateArea() {
         // please implement method
-        return 0;
+        double result;
+        result = width * height;
+        return result;
     }
 
     /**
@@ -25,7 +27,9 @@ public class Rectangle {
      */
     public double calculateScope() {
         // please implement method
-        return 0;
+        double result;
+        result = (2 * width)+(2 * height);
+        return result;
     }
 
     /**
